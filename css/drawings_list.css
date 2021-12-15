@@ -1,0 +1,54 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 525px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: 50px 150px 75px 50px 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+
+/* .list_header li span {
+  margin-right: 12px;
+} */
+
+#page_num {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+}
+
+button {
+  margin-right: 12px;
+}

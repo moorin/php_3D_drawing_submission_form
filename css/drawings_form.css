@@ -1,0 +1,35 @@
+.drawing_information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0 40px 0;
+}
+
+.drawing_col1 {
+  margin-top: 15px;
+}
+
+.project_col1 {
+  margin-top: 15px;
+}
+
+
+.project_information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.project_content input {
+  width: 120px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn > button {
+  margin-right: 15px;
+}

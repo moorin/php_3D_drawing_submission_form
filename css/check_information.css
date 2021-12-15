@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+
+}
+
+input {
+  margin-left: 12px;
+  width: 100px;
+
+}
+.container{
+  margin-left: -85px;
+}
+.row {
+  display: grid;
+  grid-template-rows: 45px 45px 45px 45px;
+  grid-template-columns: 120px 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item:nth-child(5) {
+  grid-column: 2;
+}
